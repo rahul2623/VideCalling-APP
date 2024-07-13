@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "846828332313",
+    "project_id": "videomeet-703fd",
+    "storage_bucket": "videomeet-703fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846828332313:android:3ca05f4c7a8cd64fecd188",
+        "android_client_info": {
+          "package_name": "com.example.videomeet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIViROwWFRO0hj8UdYro3H6IqJT9M3xg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

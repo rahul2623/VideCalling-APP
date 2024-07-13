@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VideoMeet</string>
+    <string name="Meettxt">Create Meeting Room Using Meeting ID</string>
+</resources>
