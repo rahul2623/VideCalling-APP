@@ -40,7 +40,9 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.firebase.auth)
+    implementation(libs.core)
     testImplementation(libs.junit)
+    implementation("org.jitsi.react:jitsi-meet-sdk:6.2.2")
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 }

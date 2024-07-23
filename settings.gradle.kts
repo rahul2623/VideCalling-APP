@@ -22,6 +22,7 @@ dependencyResolutionManagement {
         }
         maven {
             setUrl("https://maven.google.com")
+            setUrl("https://www.jetpack.io")
         }
     }
 }

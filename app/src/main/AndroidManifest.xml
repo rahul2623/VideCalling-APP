@@ -17,6 +17,15 @@
         android:theme="@style/Theme.VideoMeet"
         tools:targetApi="31">
         <activity
+            android:name=".org.jitsi.example"
+            android:exported="false" />
+        <activity
+            android:name=".org.jitsi.example.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".org.jitsi.example.MainActivity.java"
+            android:exported="false" />
+        <activity
             android:name=".One"
             android:exported="false" />
         <activity

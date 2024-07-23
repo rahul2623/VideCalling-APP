@@ -14,7 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 import java.util.logging.Logger;
 
 public class One extends AppCompatActivity {
-Button log,reg;
+Button log,reg,btdi;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +30,11 @@ Button log,reg;
         reg.setOnClickListener(view -> {
             Intent ab=new Intent(One.this, Register.class);
             startActivity(ab);
+        });
+        btdi=findViewById(R.id.direct);
+        btdi.setOnClickListener(view ->{
+            Intent ac=new Intent(One.this,MainActivity.class);
+            startActivity(ac);
         });
     }
 }
